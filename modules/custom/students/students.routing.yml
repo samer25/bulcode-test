@@ -1,0 +1,26 @@
+students.form:
+  path: '/students'
+  defaults:
+    _form: '\Drupal\students\Form\StudentsForm'
+    _title: 'Student Form'
+  requirements:
+    _permission: 'view students'
+
+
+students.content:
+  path: '/studentslist'
+  defaults:
+    _controller: '\Drupal\students\Controller\StudentsListController::content'
+    _title: 'List of students'
+  requirements:
+    _permission: 'view studentslist'
+
+
+students.delete_form:
+  path: '/students/{id}/delete'
+  defaults:
+    _form: '\Drupal\students\Form\DeleteForm'
+    _title: 'DeleteForm'
+  requirements:
+    _permission: 'view delete'
+    _access: 'TRUE'

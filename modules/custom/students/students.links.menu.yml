@@ -1,0 +1,13 @@
+students.newpage:
+  title: 'Add Students'
+  description: 'Link to page Adding students'
+  route_name: students.form
+  weight: 9
+  menu_name: main
+
+studentslist.newpage:
+  title: 'Students list'
+  description: 'Link to page students list'
+  route_name: students.content
+  weight: 10
+  menu_name: main
