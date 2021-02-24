@@ -1,0 +1,26 @@
+1.Creating a module students (creating files info.yml, routing.yml, link.menu.yml) - saturday 7 - 8
+
+2.Adding pages Add students and students list that is added in main menu(empty pages) and in routing.yml adding paths (/students and /students list) 8 - 8: 30
+ 
+3.Creating  students form (creating controller file for students form) with three fields "name, gender faculty number"
+9- 12
+
+4.Adding validation form for faculty number
+12 - 12:15
+
+5.Creating .install file for database table that have 4 rows:  primery id, name, gender, faculty number 
+13 - 14:30 
+
+6.Adding submitForm to student form for saving students info into database 
+16 - 16:30
+
+7. Creating new controller for displaying students table
+sundey - 9 : 13
+
+8. Creating controller form delete
+	14 - 15
+
+9. Adding to students form editing 
+		15 - 20
+
+10. Fixing insert of gender in database and adding gender in page students list - tuesday - wednesday- 10:00 - 10: 30  
